@@ -21,3 +21,4 @@ For aggregate data
 Other Stuff
 
 * **BReiss.ado** and **BReiss_Pred.ado** -- codes for estimating the Bresnahan and Reiss (1991, JPE) model of entry.
+* **coef_change.ado** -- code for changing an element in a coefficient vector -- usually stored in e(b).
