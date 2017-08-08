@@ -16,7 +16,8 @@ For dissagregate data
 
 For aggregate data
 
-1. **ElastNL** creates a matrix of own price elasticities across alternatives
+1. **ElastNL** creates a matrix of own price elasticities across alternatives for a single level nested logit
+2. **logsumNL** Creates a variable -- equal for all markets -- with the logsum for a single level nested logit
 
 Other Stuff
 
