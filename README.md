@@ -23,3 +23,4 @@ Other Stuff
 
 * **BReiss.ado** and **BReiss_Pred.ado** -- codes for estimating the Bresnahan and Reiss (1991, JPE) model of entry.
 * **coef_change.ado** -- code for changing an element in a coefficient vector -- usually stored in e(b).
+* **Geolocation_HERE.do** -- example for getting the HERE location service to get latitude and longitude -- you need to get appid and appcode with the HERE service, though
