@@ -24,3 +24,10 @@ Other Stuff
 * **BReiss.ado** and **BReiss_Pred.ado** -- codes for estimating the Bresnahan and Reiss (1991, JPE) model of entry.
 * **coef_change.ado** -- code for changing an element in a coefficient vector -- usually stored in e(b).
 * **Geolocation_HERE.do** -- example for getting the HERE location service to get latitude and longitude -- you need to get appid and appcode with the HERE service, though
+
+# Subdir Mode_Model_2007SP
+Do-files for estimating a Discrete Choice model with Disaggregated data for São Paulo city using the 2007 Origin-Destination Survey.
+
+Please cite:
+
+Lucinda, C., Moita, R., Meyer, L. and Ledo, B. (2017) "The Economics of Sub-Optimal Policies for Traffic Congestion" - Journal of Transport Economics and Policy, forthcoming.
