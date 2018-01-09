@@ -36,7 +36,7 @@ forvalues i=1/$n_esc {
 	qui predict prob1 if e(sample)
 
 	qui gen diffprob_perc=2*(prob1-`prob0')/(`prob0'+prob1) if `touse'
-	qui bysort dup: egen mean_elast=mean(diffprob_perc) if `touse'
+	qui bysort `choicevar': egen mean_elast=mean(diffprob_perc) if `touse'
 	forvalues j=1/$n_esc {
 		qui su mean_elast if `choicevar'==`j'
 		local elasti=100*r(mean)
